@@ -343,7 +343,7 @@ body.land .flow .pad{width:calc(56% - var(--cw)/2)}
 <script>
 (()=>{
 'use strict';
-const CLIENT_ID_DEFAULT='';
+const CLIENT_ID_DEFAULT='2ee3ba9aae74406eadb65fd404d7b830';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
 
